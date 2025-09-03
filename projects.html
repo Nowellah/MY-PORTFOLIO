@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Bridget's Projects</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Font Awesome CDN -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body { background-color: #f8f9fa; }
+    .card {
+      transition: transform 0.3s ease;
+    }
+    .card:hover {
+      transform: scale(1.02);
+    }
+    footer {
+  background-color: #222; /* or any dark shade */
+  color: white;
+}
+
+  </style>
+</head>
+<body>
+    <!-- Navbar with Logo -->
+<nav class="navbar navbar-expand-lg navbar-light bg-white">
+    <div class="container-fluid">
+        <a class="navbar-brand d-flex align-items-center" href="#">
+            <img src="images/LOGO.png" alt="Logo" style="height:100px; width:auto;">
+            
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+  <div class="container py-5">
+    <h2 class="text-center mb-4 fw-bold">Featured Projects</h2>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card h-100 border-primary">
+          <div class="card-body">
+            <h5 class="card-title">Climate Data Analysis</h5>
+            <p class="card-text">Analyzed climate trends using Python and data visualization tools. Delivered insights for sustainability and environmental planning.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100 border-success">
+          <div class="card-body">
+            <h5 class="card-title">Airbnb Market Dashboard</h5>
+            <p class="card-text">Built a dashboard to explore pricing, occupancy, and location trends in Airbnb listings. Used Tableau and Python for data storytelling.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card h-100 border-info">
+          <div class="card-body">
+            <h5 class="card-title">Full-Stack Web App</h5>
+            <p class="card-text">Developed a responsive web application with user authentication, database integration, and RESTful APIs using Node.js and Bootstrap.</p>
+          </div>
+        </div>
+      </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" defer></script>
+
+   <!-- Footer -->
+<footer class="text-center py-3">
+    <p class="mb-2">© <span id="year"></span> Bridget. All rights reserved.</p>
+    <div>
+        <a href="https://linkedin.com/in/nowellahwalker" target="_blank" class="mx-2 text-white" title="LinkedIn">
+            <i class="fab fa-linkedin fa-lg"></i>
+        </a>
+        <a href="https://github.com/nowellah" target="_blank" class="mx-2 text-white" title="GitHub">
+            <i class="fab fa-github fa-lg"></i>
+        </a>
+        <a href="mailto:abridgetnowellah@gmail.com" class="mx-2 text-white" title="Email">
+            <i class="fas fa-envelope fa-lg"></i>
+        </a>
+    </div>
+   
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
