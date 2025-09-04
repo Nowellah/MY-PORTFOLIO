@@ -1,0 +1,60 @@
+body {
+  background-color: #f8f9fa;
+}
+.navbar {
+  position: relative;
+  z-index: 2;
+}
+.about-section {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+.profile-img {
+  max-width: 100%;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer a:hover i {
+  color: #0dcaf0;
+  /* Bootstrap's cyan or any accent color */
+  transform: scale(1.2);
+  transition: all 0.3s ease;
+}
+
+
+
+/* Particle Overlay */
+#particles-js {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  background: linear-gradient(to bottom right, #f0f0f0, #dcdcdc);
+  opacity: 0.5;
+}
+
+/* About Section */
+.about-section {
+  position: relative;
+  z-index: 1;
+  padding: 100px 20px;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.6);
+  /* fallback overlay */
+}
+.main-content {
+  position: relative;
+  z-index: 1;
+}
+
+.profile-img {
+  max-width: 250px;
+  border-radius: 50%;
+  box-shadow: 0 0 12px rgba(255, 255, 255, 0.2);
+}
